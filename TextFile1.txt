@@ -1,0 +1,26 @@
+﻿gaugeControl1.AutoLayout = false;
+            gaugeControl1.Gauges.AddRange(new DevExpress.XtraGauges.Base.IGauge[] {
+            digitalGauge1});
+            gaugeControl1.Location = new System.Drawing.Point(221, 79);
+            gaugeControl1.Name = "gaugeControl1";
+            gaugeControl1.Size = new System.Drawing.Size(229, 86);
+            gaugeControl1.TabIndex = 0;
+            // 
+            // digitalGauge1
+            // 
+            digitalGauge1.AppearanceOff.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#FFC0C0");
+            digitalGauge1.AppearanceOn.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#A40000");
+            digitalGauge1.BackgroundLayers.AddRange(new DevExpress.XtraGauges.Win.Gauges.Digital.DigitalBackgroundLayerComponent[] {
+            digitalBackgroundLayerComponent1});
+            digitalGauge1.Bounds = new System.Drawing.Rectangle(3, 2, 221, 80);
+            digitalGauge1.DigitCount = 5;
+            digitalGauge1.Name = "";
+            digitalGauge1.Text = "1802";
+            // 
+            // digitalBackgroundLayerComponent1
+            // 
+            digitalBackgroundLayerComponent1.BottomRight = new DevExpress.XtraGauges.Core.Base.PointF2D(259.8125F, 99.9625F);
+            digitalBackgroundLayerComponent1.Name = "digitalBackgroundLayerComponent13";
+            digitalBackgroundLayerComponent1.ShapeType = DevExpress.XtraGauges.Core.Model.DigitalBackgroundShapeSetType.Style12;
+            digitalBackgroundLayerComponent1.TopLeft = new DevExpress.XtraGauges.Core.Base.PointF2D(20F, 0F);
+            digitalBackgroundLayerComponent1.ZOrder = 1000;

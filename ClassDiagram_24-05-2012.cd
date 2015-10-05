@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DSA_Teaser.AudioFrame" Collapsed="true">
+    <Position X="14.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAgAAAgAAAABAwEAAAEAAggAAAAA=</HashCode>
+      <FileName>Class\Function\AudioLib\AudioFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.FifoStream" Collapsed="true">
+    <Position X="18" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAoAAAEQAQgGAAAAABggAAgAEAAAAAAgCOIACA=</HashCode>
+      <FileName>Class\Function\AudioLib\FifoStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.FourierTransform" Collapsed="true">
+    <Position X="19.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAEAA=</HashCode>
+      <FileName>Class\Function\AudioLib\FourierTransform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.WaveInHelper" Collapsed="true">
+    <Position X="19.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Class\Function\AudioLib\WaveIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.WaveInBuffer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIGAAgAIAAAAIAAAIYIAAABAAQIAAAAIABAA=</HashCode>
+      <FileName>Class\Function\AudioLib\WaveIn.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DSA_Teaser.WaveInRecorder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAQIQCAAAAYAAAAAAAgARQAAAAAABAAAIAgAQAA=</HashCode>
+      <FileName>Class\Function\AudioLib\WaveIn.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DSA_Teaser.WaveFormat" Collapsed="true">
+    <Position X="16.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAACAgAABAAAAAAAAAAIAAAQAAAAAQAAA=</HashCode>
+      <FileName>Class\Function\AudioLib\WaveNative.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.WaveNative" Collapsed="true">
+    <Position X="23.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEgEBBAgIBFCKMAiAQAABigAAIAAAAGAAIYAIk=</HashCode>
+      <FileName>Class\Function\AudioLib\WaveNative.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.WaveOutHelper" Collapsed="true">
+    <Position X="14.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Class\Function\AudioLib\WaveOut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.WaveOutBuffer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEGAAgEIQAAAAAAgIIIAAABAAwIAAAAAAAAA=</HashCode>
+      <FileName>Class\Function\AudioLib\WaveOut.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DSA_Teaser.WaveOutPlayer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAQIQCBAAAIAAAAAAAgABQAAAAAABAAAIAgAQAA=</HashCode>
+      <FileName>Class\Function\AudioLib\WaveOut.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DSA_Teaser.ObjectComplexGraph" Collapsed="true">
+    <Position X="5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIggACAAAAAAAAAQAAAAAAAABAAAAAAAAABIAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectComplexGraph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DSA_Teaser.ObjectDigitalWaveformGraph" Collapsed="true">
+    <Position X="9.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIggACAAAAAAAAAQAAAAAAAABAAAAAAAAABIAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectDigitalWaveformGraph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DSA_Teaser.ObjectGauge" Collapsed="true">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgAAgABAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectGauge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectIntensityGraph" Collapsed="true">
+    <Position X="5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIggACAAAAAAAAAQAAAAAAAABAAAAAAAAABIAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectIntensityGraph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DSA_Teaser.ObjectKnob" Collapsed="true">
+    <Position X="21.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectKnob.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectLed" Collapsed="true">
+    <Position X="7.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectLed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectMeter" Collapsed="true">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectMeter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectScatterGraph" Collapsed="true">
+    <Position X="11.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIggACAAAAAAAAAQAAAAAAAABAAAAAAAAABIAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectScatterGraph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DSA_Teaser.ObjectTank" Collapsed="true">
+    <Position X="14" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectTank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectThermometer" Collapsed="true">
+    <Position X="2.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectThermometer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectVideo" Collapsed="true">
+    <Position X="7.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAUAgIAQSAEACFAAAFQAAIAAAACEAAAEgAABgAAEEA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectVideo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectWaveformGraph" Collapsed="true">
+    <Position X="11.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEIgkQCgiDQgAAQgQQAgAAAABBGQEACAEAQBqABAAQ=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectWaveformGraph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DSA_Teaser.FormNIDeviceSetup" Collapsed="true">
+    <Position X="18" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGgAIQQACIAIQBAABKCAGELQwJA0AuQABgwAAACACA=</HashCode>
+      <FileName>Class\Function\ObjectSequence\FormNIDeviceSetup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectAudioIn" Collapsed="true">
+    <Position X="18" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAQAAAIACgACAAAwAEAAAAKAhEAAGJE=</HashCode>
+      <FileName>Class\Function\ObjectSequence\ObjectAudioIn.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DSA_Teaser.ObjectDAQ" Collapsed="true">
+    <Position X="20.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAIAEARAAQAAAACAACAAAAQCgUAABAAAAABBAEAEBA=</HashCode>
+      <FileName>Class\Function\ObjectSequence\ObjectDAQ.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectDeviceNI" Collapsed="true">
+    <Position X="24.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAEQQACAARABAAEBCAAECQgAAAgoAADgQFAAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectSequence\ObjectDeviceNI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectFFT" Collapsed="true">
+    <Position X="31.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgQBAIgABACAAAAAIBAAACAAIAAAAQAAgBBACAAAA=</HashCode>
+      <FileName>Class\Function\ObjectSequence\ObjectFFT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectFRF" Collapsed="true">
+    <Position X="27" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgFIIIABCACEACAAAABAAAAIAAAAQABQQBAAEMCI=</HashCode>
+      <FileName>Class\Function\ObjectSequence\ObjectFRF.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectLinearSpectrum" Collapsed="true">
+    <Position X="30" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectSequence\ObjectLinearSpectrum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectPowerSpectrum" Collapsed="true">
+    <Position X="32.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectSequence\ObjectPowerSpectrum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectSignalGenerator" Collapsed="true">
+    <Position X="32.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAACAKCAEACwBAIBUBYACEEiAAABHFQAABCA=</HashCode>
+      <FileName>Class\Function\ObjectSequence\ObjectSignalGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.UserControlSignalGenerator" Collapsed="true">
+    <Position X="25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAQAAACgCAAwECICQAAACCJBGAAABgAIAABIAARA=</HashCode>
+      <FileName>Class\Function\ObjectSequence\UserControlSignalGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectPlayerWAV" Collapsed="true">
+    <Position X="2.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Class\Function\RecordFunction\ObjectPlayerWAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectRecordAVI" Collapsed="true">
+    <Position X="3" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIBQAIAAEkABAAAGARAQBAAQJAAAAAAAAIAAAAAI=</HashCode>
+      <FileName>Class\Function\RecordFunction\ObjectRecordAVI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectRecordWAV" Collapsed="true">
+    <Position X="5.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBGAAAEBAAABBAAAGAAAAAAQACAAAAAgEAAQAAAAA=</HashCode>
+      <FileName>Class\Function\RecordFunction\ObjectRecordWAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectRecordWrap" Collapsed="true">
+    <Position X="7.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\Function\RecordFunction\ObjectRecordWrap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.UserControlWorkingPanel" Collapsed="true">
+    <Position X="14.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>pCcw44ITAKOHCCgHFjCYBE7ygFNAkMGIASyCwA8M4AI=</HashCode>
+      <FileName>Class\UI\UserControlWorkingPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.EnvironmentFunction" Collapsed="true">
+    <Position X="16.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAgAAAAAACABAgAFAAQAAAAIAAAAABAAAAAAEAA=</HashCode>
+      <FileName>Class\Working Environment\EnvironmentFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.RecordingFunction" Collapsed="true">
+    <Position X="21.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAIAAAAAAAAAAAAAAAAEAAAAAAACAAAAACAAQAAAA=</HashCode>
+      <FileName>Class\Working Environment\RecordingFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Form1" Collapsed="true">
+    <Position X="19.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>fTfgNYmdiC+IhCouJrCUzEjCrVKDADHKcSnvSJxf2Tw=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.FormNewProject" Collapsed="true">
+    <Position X="16.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAICoAIEACBACAAAACAIBABBkQAEABBFkAIAA=</HashCode>
+      <FileName>FormNewProject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.IndicatorCollection" Collapsed="true">
+    <Position X="23.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IndicatorCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.IndicatorPanel" Collapsed="true">
+    <Position X="25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IndicatorPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.IndicatorWrapperProperties" Collapsed="true">
+    <Position X="14.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAABAAAAAQAQAIAAEACCAAAAAgAAAAAAAEAAAA=</HashCode>
+      <FileName>IndicatorWrapperProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectNet" Collapsed="true">
+    <Position X="23.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABACAgAAAAIQAAAEEIAABBCAAABAAAIEAAAABAAAAg=</HashCode>
+      <FileName>ObjectNet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectSound" Collapsed="true">
+    <Position X="22.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>ObjectSound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Program" Collapsed="true">
+    <Position X="18" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.SequenceObjectFunction" Collapsed="true">
+    <Position X="25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAIAAAACAAAIAAAACIAAAAgAAAA=</HashCode>
+      <FileName>SequenceObjectFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.SplashScreen" Collapsed="true">
+    <Position X="16.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAgAAAAAAABAAAA=</HashCode>
+      <FileName>SplashScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ToolStripItemClickEventArgs" Collapsed="true">
+    <Position X="18" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ToolStripItemClickEventArg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ToolStripItemCust" Collapsed="true">
+    <Position X="19.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ToolStripItemColCust.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.XGraphAxis" Collapsed="true">
+    <Position X="19.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>XGraphAxis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Class.Function.ObjectIndicator.FormCameraConfig" Collapsed="true">
+    <Position X="21.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABCAAAAQAEACAAAAKAAAHABgAAAAAABgAAQA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\FormCameraConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Class.ObjectIndicator.GraphPropertiesMethod" Collapsed="true">
+    <Position X="21.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\GraphPropertiesMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Class.Function.ObjectSequence.FormDeviceSelector" Collapsed="true">
+    <Position X="23.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAIJAAACQAIAACAhSgAEACiAAAAAgQAAAiAAJABAE=</HashCode>
+      <FileName>Class\Function\ObjectSequence\FormDeviceSelector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Class.Function.ObjectSequence.FormFFTSourceSelect" Collapsed="true">
+    <Position X="25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQKAAAAAAAAKQAAACAAAGAAkAAAAAABgAAAA=</HashCode>
+      <FileName>Class\Function\ObjectSequence\FormFFTSourceSelect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Class.Function.ObjectSequence.FormInitFRF" Collapsed="true">
+    <Position X="14.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAgAABCAAEAKAAAAQAkQAAAAAAAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectSequence\FormInitFRF.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Class.Function.ObjectSequence.OFRFDataUpdateEventArgs" Collapsed="true">
+    <Position X="14.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgEIIIABCACEACAAAAAAAAAIAAAAAAAAQAAAEMCI=</HashCode>
+      <FileName>Class\Function\ObjectSequence\OFRFDataUpdateEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Class.UI.ObjectRecordTdms" Collapsed="true">
+    <Position X="9.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\UI\ObjectRecordTdms.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Class.UI.UserControlAnalysisPanel" Collapsed="true">
+    <Position X="21.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JCMAIIABSKOCACiCBDCAAAgCgNNAAAGIACCCQAQIwCA=</HashCode>
+      <FileName>Class\UI\UserControlAnalysisPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Class.UI.UserControlObjectSequenceIcon" Collapsed="true">
+    <Position X="23.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACBIEAACAAAQAAAACAEARDIAEAAAABEAhAQQAQAAQ=</HashCode>
+      <FileName>Class\UI\UserControlObjectSequenceIcon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Class.UI.WorkingPanel" Collapsed="true">
+    <Position X="18" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAEAAAAAAAAAAAAAAAACAAAQAgAAAAAA=</HashCode>
+      <FileName>Class\UI\WorkingPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Class.UI.ProjectEnvirontment" Collapsed="true">
+    <Position X="19.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAgAAAAAAACAAAAEgEAAAABAAEEEAABABCAAA=</HashCode>
+      <FileName>Class\Working Environment\ProjectEnvirontment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Properties.Resources" Collapsed="true">
+    <Position X="23.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAABEAAAAQAAAAQAAEAAAgAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Properties.Settings" Collapsed="true">
+    <Position X="14.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroLibrary.MicroStopwatch" Collapsed="true">
+    <Position X="16.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MicroLibrary.MicroTimer" Collapsed="true">
+    <Position X="18" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MicroLibrary.MicroTimerEventArgs" Collapsed="true">
+    <Position X="19.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="DSA_Teaser.IGraphProperties" Collapsed="true">
+    <Position X="14.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAEEAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>IGraphProperties.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DSA_Teaser.ITest" Collapsed="true">
+    <Position X="16.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Test.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="DSA_Teaser.WaveFormats" Collapsed="true">
+    <Position X="19.75" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Class\Function\AudioLib\WaveNative.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="DSA_Teaser.BufferDoneEventHandler" Collapsed="true">
+    <Position X="14.5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAAA=</HashCode>
+      <FileName>Class\Function\AudioLib\WaveIn.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="DSA_Teaser.BufferFillEventHandler" Collapsed="true">
+    <Position X="16.25" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAAA=</HashCode>
+      <FileName>Class\Function\AudioLib\WaveOut.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

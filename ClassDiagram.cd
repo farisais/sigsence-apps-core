@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DSA_Teaser.ObjectComplexGraph" Collapsed="true">
+    <Position X="21" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIggACAAAAAAAAAQAAAAAAAABAAAAAAAAABIAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectComplexGraph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DSA_Teaser.ObjectDigitalWaveformGraph" Collapsed="true">
+    <Position X="25.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIggACAAAAAAAAAQAAAAAAAABAAAAAAAAABIAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectDigitalWaveformGraph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DSA_Teaser.ObjectGauge" Collapsed="true">
+    <Position X="30" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgAAgABAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectGauge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectIntensityGraph" Collapsed="true">
+    <Position X="34.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIggACAAAAAAAAAQAAAAAAAABAAAAAAAAABIAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectIntensityGraph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DSA_Teaser.ObjectKnob" Collapsed="true">
+    <Position X="50.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectKnob.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectLed" Collapsed="true">
+    <Position X="18.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectLed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectMeter" Collapsed="true">
+    <Position X="23.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectMeter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectScatterGraph" Collapsed="true">
+    <Position X="27.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIggACAAAAAAAAAQAAAAAAAABAAAAAAAAABIAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectScatterGraph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DSA_Teaser.ObjectTank" Collapsed="true">
+    <Position X="32.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectTank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectThermometer" Collapsed="true">
+    <Position X="36.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectThermometer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectWaveformGraph" Collapsed="true">
+    <Position X="16.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEIgkQCgiDQgAAQgQQAgAAAABBGQEACAEAQBqABAAQ=</HashCode>
+      <FileName>Class\Function\ObjectIndicator\ObjectWaveformGraph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DSA_Teaser.ObjectDAQ" Collapsed="true">
+    <Position X="41.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAIAEARAAQAAAACAACAAAAQCgUAABAAAAABBAEAEBA=</HashCode>
+      <FileName>Class\Function\ObjectSequence\ObjectDAQ.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectFFT" Collapsed="true">
+    <Position X="46.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgQBAIgABACAAAAAIBAAACAAIAAAAQAAgBBACAAAA=</HashCode>
+      <FileName>Class\Function\ObjectSequence\ObjectFFT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectLinearSpectrum" Collapsed="true">
+    <Position X="45.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectSequence\ObjectLinearSpectrum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectPowerSpectrum" Collapsed="true">
+    <Position X="48.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\Function\ObjectSequence\ObjectPowerSpectrum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectSignalGenerator" Collapsed="true">
+    <Position X="39" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAACAKCAEACwBAIBUBYACEEiAAABHFQAABCA=</HashCode>
+      <FileName>Class\Function\ObjectSequence\ObjectSignalGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Form1" Collapsed="true">
+    <Position X="50.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>fTfgNYmdiC+IhCouJrCUzEjCrVKDADHKcSnvSJxf2Tw=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.IndicatorCollection" Collapsed="true">
+    <Position X="52.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IndicatorCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.IndicatorPanel" Collapsed="true">
+    <Position X="54" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IndicatorPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.IndicatorWrapperProperties" Collapsed="true">
+    <Position X="55.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAABAAAAAQAQAIAAEACCAAAAAgAAAAAAAEAAAA=</HashCode>
+      <FileName>IndicatorWrapperProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.ObjectNet" Collapsed="true">
+    <Position X="52.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABACAgAAAAIQAAAEEIAABBCAAABAAAIEAAAABAAAAg=</HashCode>
+      <FileName>ObjectNet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Program" Collapsed="true">
+    <Position X="55.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.SequenceObjectFunction" Collapsed="true">
+    <Position X="52.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAIAAAACAAAIAAAACIAAAAgAAAA=</HashCode>
+      <FileName>SequenceObjectFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.SplashScreen" Collapsed="true">
+    <Position X="50.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAgAAAAAAABAAAA=</HashCode>
+      <FileName>SplashScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Properties.Resources" Collapsed="true">
+    <Position X="50.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAABEAAAAQAAAAQAAEAAAgAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSA_Teaser.Properties.Settings" Collapsed="true">
+    <Position X="54" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DSA_Teaser.ITest">
+    <Position X="50.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Test.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

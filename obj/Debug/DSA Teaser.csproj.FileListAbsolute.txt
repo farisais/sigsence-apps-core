@@ -1,0 +1,45 @@
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\DSA Teaser.exe.config
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\DSA Teaser.exe
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\DSA Teaser.pdb
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\LibUsbDotNet.dll
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\LibUsbDotNet.xml
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\obj\Debug\DSA_Teaser.Class.Function.ObjectSequence.FormDeviceSelector.resources
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\obj\Debug\DSA_Teaser.Class.Function.ObjectSequence.FormFFTSourceSelect.resources
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\obj\Debug\DSA_Teaser.UserControlSignalGenerator.resources
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\obj\Debug\DSA_Teaser.Class.UI.UserControlObjectSequenceIcon.resources
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\obj\Debug\DSA_Teaser.UserControlWorkingPanel.resources
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\obj\Debug\DSA_Teaser.Form1.resources
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\obj\Debug\DSA_Teaser.FormNewProject.resources
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\obj\Debug\DSA_Teaser.Properties.Resources.resources
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\obj\Debug\DSA_Teaser.SplashScreen.resources
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\obj\Debug\DSA Teaser.csproj.GenerateResource.Cache
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\obj\Debug\DSA Teaser.exe.licenses
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\obj\Debug\DSA Teaser.exe
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\obj\Debug\DSA Teaser.pdb
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\obj\Debug\DSA_Teaser.Class.Function.ObjectIndicator.FormCameraConfig.resources
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\Touchless.Vision.dll
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\System.ComponentModel.Composition.dll
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\WebCamLib.dll
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\Touchless.Vision.pdb
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\WebCamLib.pdb
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\obj\Debug\DSA_Teaser.Class.Function.ObjectSequence.FormInitFRF.resources
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\AviFile.dll
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\AviFile.pdb
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\wavfile.dll
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\wavfile.pdb
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\obj\Debug\DSA_Teaser.FormNIDeviceSetup.resources
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\obj\Debug\DSA_Teaser.Class.UI.UserControlAnalysisPanel.resources
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\NationalInstruments.DAQmx.dll
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\NationalInstruments.UI.Styles3D.dll
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\NationalInstruments.Common.Native.dll
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\NationalInstruments.DAQmx.xml
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\Microsoft.VisualBasic.dll
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\Sigsence.ApplicationElements.dll
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\Sigsence.ApplicationFunction.dll
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\Sigsence.ApplicationElements.pdb
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\Sigsence.ApplicationFunction.pdb
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\Sigsence.ProgrammingInterface.dll
+C:\Users\faris\Documents\Visual Studio 2008\Projects\DSA Teaser\DSA Teaser\bin\Debug\Sigsence.ProgrammingInterface.pdb

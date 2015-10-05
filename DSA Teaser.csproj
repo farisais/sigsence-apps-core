@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D4C04085-B03A-47E6-AE53-94D4E22D7A77}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DSA_Teaser</RootNamespace>
+    <AssemblyName>DSA Teaser</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>
+    </DocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AviFile, Version=1.0.4664.22418, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\AviFile\bin\Debug\AviFile.dll</HintPath>
+    </Reference>
+    <Reference Include="Bass.Net, Version=2.4.6.3, Culture=neutral, PublicKeyToken=b7566c273e6ef480, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v9.3, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v9.3, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v9.3, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v9.3, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v9.3.Core, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v9.3.Win, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v9.3, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v9.3, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v9.3, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Emgu.CV, Version=2.4.0.1717, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Emgu\emgucv-windows-x86 2.4.0.1717\bin\Emgu.CV.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI, Version=2.4.0.1717, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Emgu\emgucv-windows-x86 2.4.0.1717\bin\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.Util, Version=2.4.0.1717, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Emgu\emgucv-windows-x86 2.4.0.1717\bin\Emgu.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="LibUsbDotNet, Version=2.2.8.104, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\LibUsbDotNet\LibUsbDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.DirectSound, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.VisualBasic">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NationalInstruments.Analysis.Enterprise, Version=9.1.35.204, Culture=neutral, PublicKeyToken=18cbae0f9955702a, processorArchitecture=MSIL" />
+    <Reference Include="NationalInstruments.Common, Version=9.1.35.163, Culture=neutral, PublicKeyToken=18cbae0f9955702a, processorArchitecture=MSIL" />
+    <Reference Include="NationalInstruments.DAQmx, Version=9.5.35.112, Culture=neutral, PublicKeyToken=18cbae0f9955702a, processorArchitecture=x86" />
+    <Reference Include="NationalInstruments.Tdms, Version=9.1.35.204, Culture=neutral, PublicKeyToken=18cbae0f9955702a, processorArchitecture=MSIL" />
+    <Reference Include="NationalInstruments.UI, Version=9.1.35.204, Culture=neutral, PublicKeyToken=18cbae0f9955702a, processorArchitecture=MSIL" />
+    <Reference Include="NationalInstruments.UI.WindowsForms, Version=9.1.35.204, Culture=neutral, PublicKeyToken=18cbae0f9955702a" />
+    <Reference Include="NAudio, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="NAudio.WindowsMediaFormat, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Nevron.Chart, Version=12.2.6.12, Culture=neutral, PublicKeyToken=2961c51bb98125d2" />
+    <Reference Include="Nevron.Chart.WinForm, Version=12.2.6.12, Culture=neutral, PublicKeyToken=c9bd8998e981e4ee" />
+    <Reference Include="Nevron.GraphicsGL, Version=12.2.6.12, Culture=neutral, PublicKeyToken=2f17c6a71f852d32" />
+    <Reference Include="Nevron.Presentation, Version=12.2.6.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc" />
+    <Reference Include="Nevron.System, Version=12.2.6.12, Culture=neutral, PublicKeyToken=6a987feae5e496fd" />
+    <Reference Include="Sigsence.ApplicationElements, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Sigsence.ApplicationElements\bin\Debug\Sigsence.ApplicationElements.dll</HintPath>
+    </Reference>
+    <Reference Include="Sigsence.ApplicationFunction, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Sigsence.ApplicationFunction\bin\Debug\Sigsence.ApplicationFunction.dll</HintPath>
+    </Reference>
+    <Reference Include="Sigsence.ProgrammingInterface, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Sigsence.ProgrammingInterface\bin\Debug\Sigsence.ProgrammingInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Touchless.Vision, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\[PROJECT]\Sigsence\Camera Library\WebCamWrapper\bin\Debug\Touchless.Vision.dll</HintPath>
+    </Reference>
+    <Reference Include="wavfile, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\wavfile\wavfile\bin\Debug\wavfile.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\Function\AudioLib\AudioFrame.cs" />
+    <Compile Include="Class\Function\AudioLib\FifoStream.cs" />
+    <Compile Include="Class\Function\AudioLib\FourierTransform.cs" />
+    <Compile Include="Class\Function\AudioLib\WaveIn.cs" />
+    <Compile Include="Class\Function\AudioLib\WaveNative.cs" />
+    <Compile Include="Class\Function\AudioLib\WaveOut.cs" />
+    <Compile Include="Class\Function\ObjectIndicator\FormCameraConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class\Function\ObjectIndicator\FormCameraConfig.Designer.cs">
+      <DependentUpon>FormCameraConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\Function\ObjectIndicator\GraphPropertiesMethod.cs" />
+    <Compile Include="Class\Function\ObjectIndicator\ObjectComplexGraph.cs" />
+    <Compile Include="Class\Function\ObjectIndicator\ObjectDigitalWaveformGraph.cs" />
+    <Compile Include="Class\Function\ObjectIndicator\ObjectGauge.cs" />
+    <Compile Include="Class\Function\ObjectIndicator\ObjectIntensityGraph.cs" />
+    <Compile Include="Class\Function\ObjectIndicator\ObjectKnob.cs" />
+    <Compile Include="Class\Function\ObjectIndicator\ObjectLed.cs" />
+    <Compile Include="Class\Function\ObjectIndicator\ObjectMeter.cs" />
+    <Compile Include="Class\Function\ObjectIndicator\ObjectScatterGraph.cs" />
+    <Compile Include="Class\Function\ObjectIndicator\ObjectTank.cs" />
+    <Compile Include="Class\Function\ObjectIndicator\ObjectThermometer.cs" />
+    <Compile Include="Class\Function\ObjectIndicator\ObjectVideo.cs" />
+    <Compile Include="Class\Function\ObjectIndicator\ObjectWaveformGraph.cs" />
+    <Compile Include="Class\Function\ObjectSequence\FormDeviceSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class\Function\ObjectSequence\FormDeviceSelector.Designer.cs">
+      <DependentUpon>FormDeviceSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\Function\ObjectSequence\FormFFTSourceSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class\Function\ObjectSequence\FormFFTSourceSelect.Designer.cs">
+      <DependentUpon>FormFFTSourceSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\Function\ObjectSequence\FormInitFRF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class\Function\ObjectSequence\FormInitFRF.Designer.cs">
+      <DependentUpon>FormInitFRF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\Function\ObjectSequence\FormNIDeviceSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class\Function\ObjectSequence\FormNIDeviceSetup.Designer.cs">
+      <DependentUpon>FormNIDeviceSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\Function\ObjectSequence\ObjectDAQ.cs" />
+    <Compile Include="Class\Function\ObjectSequence\ObjectDeviceNI.cs" />
+    <Compile Include="Class\Function\ObjectSequence\ObjectFFT.cs" />
+    <Compile Include="Class\Function\ObjectSequence\ObjectFRF.cs" />
+    <Compile Include="Class\Function\ObjectSequence\ObjectLinearSpectrum.cs" />
+    <Compile Include="Class\Function\ObjectSequence\ObjectPowerSpectrum.cs" />
+    <Compile Include="Class\Function\ObjectSequence\ObjectSignalGenerator.cs" />
+    <Compile Include="Class\Function\ObjectSequence\OFRFDataUpdateEventArgs.cs" />
+    <Compile Include="Class\Function\ObjectSequence\UserControlSignalGenerator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Class\Function\ObjectSequence\UserControlSignalGenerator.Designer.cs">
+      <DependentUpon>UserControlSignalGenerator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\Function\RecordFunction\ObjectPlayerWAV.cs" />
+    <Compile Include="Class\Function\RecordFunction\ObjectRecordAVI.cs" />
+    <Compile Include="Class\Function\RecordFunction\ObjectRecordWAV.cs" />
+    <Compile Include="Class\Function\RecordFunction\ObjectRecordWrap.cs" />
+    <Compile Include="Class\Interface\ObjectIndicatorInterface.cs" />
+    <Compile Include="Class\Interface\ObjectSequenceInterface.cs" />
+    <Compile Include="Class\UI\ObjectRecordTdms.cs" />
+    <Compile Include="Class\UI\UserControlAnalysisPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Class\UI\UserControlAnalysisPanel.Designer.cs">
+      <DependentUpon>UserControlAnalysisPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\Working Environment\EnvironmentFunction.cs" />
+    <Compile Include="Class\UI\UserControlObjectSequenceIcon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Class\UI\UserControlObjectSequenceIcon.Designer.cs">
+      <DependentUpon>UserControlObjectSequenceIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\UI\UserControlWorkingPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Class\UI\UserControlWorkingPanel.Designer.cs">
+      <DependentUpon>UserControlWorkingPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\UI\WorkingPanel.cs" />
+    <Compile Include="Class\Working Environment\RecordingFunction.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewProject.Designer.cs">
+      <DependentUpon>FormNewProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IGraphProperties.cs" />
+    <Compile Include="IndicatorCollection.cs" />
+    <Compile Include="IndicatorPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IndicatorWrapperProperties.cs" />
+    <Compile Include="Class\Function\ObjectSequence\ObjectAudioIn.cs" />
+    <Compile Include="ObjectNet.cs" />
+    <Compile Include="ObjectSound.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Class\Working Environment\ProjectEnvirontment.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Class\Function\ObjectIndicator\FormCameraConfig.resx">
+      <DependentUpon>FormCameraConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class\Function\ObjectSequence\FormDeviceSelector.resx">
+      <DependentUpon>FormDeviceSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class\Function\ObjectSequence\FormFFTSourceSelect.resx">
+      <DependentUpon>FormFFTSourceSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class\Function\ObjectSequence\FormInitFRF.resx">
+      <DependentUpon>FormInitFRF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class\Function\ObjectSequence\FormNIDeviceSetup.resx">
+      <DependentUpon>FormNIDeviceSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class\Function\ObjectSequence\UserControlSignalGenerator.resx">
+      <DependentUpon>UserControlSignalGenerator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class\UI\UserControlAnalysisPanel.resx">
+      <DependentUpon>UserControlAnalysisPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class\UI\UserControlObjectSequenceIcon.resx">
+      <DependentUpon>UserControlObjectSequenceIcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class\UI\UserControlWorkingPanel.resx">
+      <DependentUpon>UserControlWorkingPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewProject.resx">
+      <DependentUpon>FormNewProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SequenceObjectFunction.cs" />
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test.cs" />
+    <Compile Include="ToolStripItemClickEventArg.cs" />
+    <Compile Include="ToolStripItemColCust.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XGraphAxis.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Signal Essence - Splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram_24-05-2012.cd" />
+    <None Include="Resources\Icon_Signal_Generator.png" />
+    <Content Include="Bitmap1.bmp" />
+    <Content Include="Bitmap2.bmp" />
+    <None Include="Resources\DAQ_Icon.png" />
+    <None Include="Resources\FFT_Icon.png" />
+    <None Include="Resources\SigAdd_Icon.png" />
+    <Content Include="TextFile1.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
